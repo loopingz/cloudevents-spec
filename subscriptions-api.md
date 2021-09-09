@@ -484,7 +484,10 @@ implementations.
 ###### method
 - Type: `String`
 - Description: The HTTP method to use for sending the message. This defaults
-  to POST if not set.
+  to POST if not set. The only usable methods are POST, PUT, PATCH while POST
+  is the preferred option according to [RFC 7231](https://tools.ietf.org/html/rfc7231) and
+  [RFC 5789](https://tools.ietf.org/html/rfc5789)
+
 - Constraints:
   - OPTIONAL
 
